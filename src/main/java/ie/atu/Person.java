@@ -13,6 +13,6 @@ public class Person {
 
     public void()
     {
-        System.out.println("First name is " + firstName + " LastName" + lastName + "Age " + age);
+        System.out.println("First name is " + firstName + " LastName " + lastName + "Age " + age);
     }
 }
