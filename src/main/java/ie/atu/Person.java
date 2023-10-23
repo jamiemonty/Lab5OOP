@@ -6,7 +6,7 @@ public class Person {
     String lastName;
     int age;
 
-    public Person(String firstName, String lastName, int age) {
+    public Person() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -23,11 +23,11 @@ public class Person {
         this.lastName = scanner.nextLine();
 
         System.out.print("Enter age: ");
-        this.age = scanner.nextLine();
+        this.age = scanner.nextInt();
     }
 
     public void displayInfo()
     {
-        System.out.println("First name is " + firstName + " LastName " + lastName + "Age " + age);
+        System.out.println("First name is " + firstName + " LastName " + lastName + " Age " + age);
     }
 }
