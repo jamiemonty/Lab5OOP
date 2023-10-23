@@ -5,9 +5,9 @@ package ie.atu;
 public class Main {
     public static void main(String[] args) {
 
-        Person person1 = new Person("Jamie", "Montgomery ", "20");
+        Person person1 = new Person("Jamie", "Montgomery ", 20);
+
         person1.displayInfo();
 
         }
     }
-}
